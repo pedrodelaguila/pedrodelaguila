@@ -15,14 +15,14 @@ pipeline that ships it. Lately that also means putting LLMs and computer vision 
 
 | Project | What it is | My part | Team |
 | --- | --- | --- | --- |
-| [**LIARD**](#liard--electrical-plans--bill-of-materials) | Electrical plans in, bill of materials, quotes and purchase orders out | Full stack + AI service · 440+ commits, 118 merged PRs | 6 |
+| [**Lab III**](#lab-iii--electrical-plans--bill-of-materials) | Electrical plans in, bill of materials, quotes and purchase orders out | Full stack + AI service · 440+ commits, 118 merged PRs | 6 |
 | [**PrintScript + Snippet Searcher**](#printscript--snippet-searcher) | Our own language, published as a library and run inside a microservices platform | Linter & formatter, main API, infra · top contributor in 3 repos | 3 |
 | [**Bovelez**](#bovelez--quality-assurance) | Stock portfolio tracker built around testing | Top contributor · back, mobile front, Appium suite, CI | 5 |
 | [**RivalMatch**](#rivalmatch) | Find rival teams for amateur sports and play them | Top committer on the UI · real-time chat, maps | 4 |
 
 ---
 
-### LIARD · electrical plans → bill of materials
+### Lab III · electrical plans → bill of materials
 
 `Software Lab III` · `real client` · `private repo`
 
@@ -117,7 +117,7 @@ Amateur teams post a rival search (sport, size, date, place), get matched with c
 Soy desarrollador **full stack con foco en backend** y estudio 4.º año de Ingeniería Informática en la **Universidad Austral** (egreso estimado: diciembre 2027). Vivo en Pilar, Buenos Aires. Me
 gusta hacerme cargo de una funcionalidad de punta a punta: el esquema, el servicio, la pantalla y el pipeline que la despliega.
 
-- **LIARD** (Laboratorio III, cliente real, repo privado): convierte planos eléctricos de AutoCAD en listado de materiales, cotizaciones
+- **Laboratorio III** (cliente real, repo privado): convierte planos eléctricos de AutoCAD en listado de materiales, cotizaciones
   y órdenes de compra. Trabajé en front (onboarding, órdenes de compra, BOM, catálogo de proveedores), en back (proyectos, procesamiento
   de planos, cotización y matching, normalización de catálogos con Claude) y en el servicio de detección en Python.
 - **PrintScript + Snippet Searcher** (Ingeniería de Sistemas): escribimos un lenguaje en Kotlin, lo publicamos como librería en GitHub
