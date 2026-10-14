@@ -132,6 +132,8 @@ Engineers upload AutoCAD plans of electrical panels (DXF, DWG or PDF). A detecto
 one is, and the result is a bill of materials that gets quoted against supplier catalogs and turned into purchase orders.
 It replaces counting symbols by hand, which took from half an hour to a full day per panel.
 
+<img alt="Animation: a scan line sweeps a single-line diagram, every device gets a box with its spec, and the bill of materials counts them" src="assets/lab3-detection-light.svg" width="100%">
+
 ```mermaid
 flowchart LR
     A["Plan<br/>DXF · DWG · PDF"] --> B["Detector<br/>finds symbols"] --> C["Claude<br/>reads each one"]
