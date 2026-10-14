@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Pedro del Aguila · Full stack developer · backend-leaning" src="assets/banner-light.svg" width="100%">
+  <img alt="Pedro Del Aguila · Full stack developer · backend-leaning" src="assets/banner-light.svg" width="100%">
 </picture>
 
 <p align="center">
