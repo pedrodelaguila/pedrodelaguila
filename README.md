@@ -77,6 +77,18 @@ and the pipeline that ships it. Lately that also means putting **LLMs and comput
       <a href="#rivalmatch-1">Read more ↓</a>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Agustinguglielmelli/coding-agent">Coding Agent</a></h3>
+      <sub>Inteligencia Artificial · final project · team of 3</sub>
+      <p>A coding agent that plans, implements and validates changes in a NestJS repo, alone or as a chain of 5 subagents.</p>
+      <p><b>My part:</b> local RAG, persistent memory, the first multi-agent version, Langfuse tracing</p>
+      <a href="https://github.com/Agustinguglielmelli/coding-agent"><img alt="coding-agent" src="https://img.shields.io/badge/coding--agent-repo-24292f?style=flat-square&logo=github"></a>
+      <br><br>
+      <a href="#coding-agent-1">Read more ↓</a>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
 </table>
 
 <sub>Grey badges are private repos; they link to the write-up below instead.</sub>
@@ -276,6 +288,49 @@ results.
 
 <sub>[↑ back to projects](#projects)</sub>
 
+## Coding Agent
+
+<sub><b>An agent that writes code in a real repo</b> · Inteligencia Artificial, Universidad Austral · final project · team of 3 · <a href="https://github.com/Agustinguglielmelli/coding-agent">Agustinguglielmelli/coding-agent</a></sub>
+
+A coding agent in Node.js, with no orchestration framework, pointed at the RivalMatch backend (NestJS). It plans a task, asks for
+approval, then works alone or as a chain of five subagents, each with only the permissions its step needs. It reads and writes
+files and runs commands under read, write and command policies, with human approval for the sensitive ones. It runs on OpenAI or Gemini.
+
+```mermaid
+flowchart LR
+    T["Task"] --> EX["Explorer<br/>reads the repo"] --> RE["Researcher<br/>memory · RAG · web"]
+    RE --> IM["Implementer<br/>edits files"] --> TE["Tester<br/>runs checks"] --> RV["Reviewer<br/>reviews the diff"]
+```
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Context</b> · <sub>RAG + memory</sub>
+      <ul>
+        <li>The <b>local RAG</b>: chunking, embeddings and similarity search over the project's docs</li>
+        <li><b>Persistent project memory</b>: architecture, conventions and decisions kept between sessions</li>
+        <li>The agent configuration, and a workspace set by env so it can work on any repo</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <b>Agents &amp; observability</b> · <sub>Node.js + Langfuse</sub>
+      <ul>
+        <li>The <b>first version of the multi-agent mode</b> and the five-subagent task</li>
+        <li>The OpenAI client used to test it</li>
+        <li><b>Langfuse / OpenTelemetry traces</b> per subagent and per tool call</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p>
+  <a href="https://github.com/Agustinguglielmelli/coding-agent"><img alt="coding-agent" src="https://img.shields.io/badge/coding--agent-repo-24292f?style=flat-square&logo=github"></a>
+</p>
+
+<sub>`Node.js` `OpenAI` `Gemini` `RAG` `Multi-agent` `Langfuse` `OpenTelemetry` `Tavily`</sub>
+
+<sub>[↑ back to projects](#projects)</sub>
+
 ---
 
 <details>
@@ -297,5 +352,8 @@ el esquema, el servicio, la pantalla y el pipeline que la despliega.
   Armé el repo y el CI, parte del back, el front mobile y toda la suite de e2e mobile con Appium.
 - **[RivalMatch](#rivalmatch-1)** (Laboratorio II, equipo de 4, repos privados de front y back): búsqueda de rivales para equipos
   amateurs. Chat en tiempo real, mapa y calendario en el front; equipos y ciclo de vida de las búsquedas en el back.
+- **[Coding Agent](https://github.com/Agustinguglielmelli/coding-agent)** (trabajo final de Inteligencia Artificial, equipo de 3):
+  un agente de código en Node.js que planifica, implementa y valida cambios en el backend de RivalMatch, solo o con cinco
+  subagentes. Hice el RAG local, la memoria persistente del proyecto, la primera versión del modo multiagente y las trazas con Langfuse.
 
 </details>
