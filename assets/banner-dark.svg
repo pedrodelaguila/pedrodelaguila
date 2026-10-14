@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="830" height="200" viewBox="0 0 830 200" role="img" aria-label="Pedro del Aguila, Full stack developer, backend-leaning">
   <rect x="0.5" y="0.5" width="829" height="199" rx="12" fill="#151b23" stroke="#3d444d"/>
+  <rect x="40" y="50" width="36" height="3" rx="1.5" fill="#4493f8"/>
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
-    <text x="40" y="84" font-size="36" font-weight="600" fill="#f0f6fc">Pedro del Aguila</text>
-    <text x="40" y="116" font-size="18" fill="#9198a1">Full stack developer · backend-leaning</text>
+    <text x="40" y="96" font-size="34" font-weight="600" fill="#f0f6fc">Pedro del Aguila</text>
+    <text x="40" y="124" font-size="17" fill="#9198a1">Full stack developer · backend-leaning</text>
   </g>
-  <text x="40" y="150" font-size="13" fill="#9198a1" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace">schema → service → screen → pipeline</text>
-  <line x1="740" y1="22" x2="740" y2="172" stroke="#4493f8" stroke-width="2" stroke-linecap="round"/>
+  <line x1="40" y1="142" x2="330" y2="142" stroke="#3d444d"/>
+  <text x="40" y="164" font-size="12" fill="#9198a1" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace">schema → service → screen → pipeline</text>
+  <text x="520" y="36" font-size="10" font-weight="600" letter-spacing="1.5" fill="#4493f8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">END TO END</text>
+  <line x1="504" y1="60" x2="504" y2="156" stroke="#4493f8" stroke-width="2" stroke-linecap="round"/>
   <g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11">
-    <rect x="500" y="34" width="290" height="26" rx="6" fill="#0d1117" stroke="#3d444d"/><text x="514" y="51" fill="#9198a1">React screen</text><circle cx="740" cy="47" r="4.5" fill="#4493f8"/><rect x="500" y="70" width="290" height="26" rx="6" fill="#0d1117" stroke="#3d444d"/><text x="514" y="87" fill="#9198a1">NestJS · Spring service</text><circle cx="740" cy="83" r="4.5" fill="#4493f8"/><rect x="500" y="106" width="290" height="26" rx="6" fill="#0d1117" stroke="#3d444d"/><text x="514" y="123" fill="#9198a1">Prisma schema</text><circle cx="740" cy="119" r="4.5" fill="#4493f8"/><rect x="500" y="142" width="290" height="26" rx="6" fill="#0d1117" stroke="#3d444d"/><text x="514" y="159" fill="#9198a1">CI/CD pipeline</text><circle cx="740" cy="155" r="4.5" fill="#4493f8"/>
-  </g>
-  <g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="9">
-    <rect x="752" y="168" width="64" height="15" rx="3" fill="#4493f8"/><text x="757" y="179" fill="#0d1117">end to end</text>
+    <circle cx="504" cy="60" r="4" fill="#4493f8"/><line x1="508" y1="60" x2="520" y2="60" stroke="#3d444d"/><rect x="520.5" y="48.5" width="269" height="24" rx="5" fill="#0d1117" stroke="#3d444d"/><text x="534" y="64" fill="#9198a1">React screen</text><text x="776" y="64" text-anchor="end" fill="#9198a1" opacity="0.6">01</text><circle cx="504" cy="92" r="4" fill="#4493f8"/><line x1="508" y1="92" x2="520" y2="92" stroke="#3d444d"/><rect x="520.5" y="80.5" width="269" height="24" rx="5" fill="#0d1117" stroke="#3d444d"/><text x="534" y="96" fill="#9198a1">NestJS · Spring service</text><text x="776" y="96" text-anchor="end" fill="#9198a1" opacity="0.6">02</text><circle cx="504" cy="124" r="4" fill="#4493f8"/><line x1="508" y1="124" x2="520" y2="124" stroke="#3d444d"/><rect x="520.5" y="112.5" width="269" height="24" rx="5" fill="#0d1117" stroke="#3d444d"/><text x="534" y="128" fill="#9198a1">Prisma schema</text><text x="776" y="128" text-anchor="end" fill="#9198a1" opacity="0.6">03</text><circle cx="504" cy="156" r="4" fill="#4493f8"/><line x1="508" y1="156" x2="520" y2="156" stroke="#3d444d"/><rect x="520.5" y="144.5" width="269" height="24" rx="5" fill="#0d1117" stroke="#3d444d"/><text x="534" y="160" fill="#9198a1">CI/CD pipeline</text><text x="776" y="160" text-anchor="end" fill="#9198a1" opacity="0.6">04</text>
   </g>
 </svg>

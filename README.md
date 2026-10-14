@@ -4,19 +4,43 @@
 </picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/pedro-del-aguila/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-pedro--del--aguila-0A66C2?style=flat-square"></a>
-  <a href="mailto:delaguilapedro22@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-delaguilapedro22%40gmail.com-57606a?style=flat-square&logo=gmail&logoColor=white"></a>
-  <img alt="Universidad Austral, graduating Dec 2027" src="https://img.shields.io/badge/Universidad_Austral-4th_year_·_grad._Dec_2027-57606a?style=flat-square">
-  <img alt="Pilar, Buenos Aires" src="https://img.shields.io/badge/Based_in-Pilar,_Buenos_Aires-57606a?style=flat-square">
-  <img alt="Spanish native, English C1" src="https://img.shields.io/badge/Spanish_·_English-native_·_C1-57606a?style=flat-square">
+  <a href="https://www.linkedin.com/in/pedro-del-aguila/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-pedro--del--aguila-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:delaguilapedro22@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-delaguilapedro22%40gmail.com-24292f?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
+
+<p align="center">
+  <a href="#about">About</a> ·
+  <a href="#technical-skills">Technical skills</a> ·
+  <a href="#projects">Projects</a> ·
+  <a href="#project-details">Project details</a> ·
+  <a href="#versión-en-español">Español</a>
+</p>
+
+## About
 
 I like owning a feature end to end: the Prisma schema, the NestJS or Spring service behind it, the React screen that uses it,
 and the pipeline that ships it. Lately that also means putting **LLMs and computer vision** to work inside real products.
 
 <table>
   <tr>
-    <td><b>Backend</b></td>
+    <td><b>Education</b></td>
+    <td>Universidad Austral · 4th year · graduating Dec 2027</td>
+  </tr>
+  <tr>
+    <td><b>Location</b></td>
+    <td>Pilar, Buenos Aires</td>
+  </tr>
+  <tr>
+    <td><b>Languages</b></td>
+    <td>Spanish (native) · English (C1)</td>
+  </tr>
+</table>
+
+## Technical skills
+
+<table>
+  <tr>
+    <td width="140"><b>Backend</b></td>
     <td><img height="32" src="https://skillicons.dev/icons?i=ts,nestjs,prisma,kotlin,spring,python,fastapi" alt="TypeScript, NestJS, Prisma, Kotlin, Spring, Python, FastAPI"></td>
   </tr>
   <tr>
@@ -36,68 +60,73 @@ and the pipeline that ships it. Lately that also means putting **LLMs and comput
 ## Projects
 
 <table>
+  <thead>
+    <tr>
+      <th align="left" width="24%">Project</th>
+      <th align="left" width="38%">Summary</th>
+      <th align="left" width="38%">My part</th>
+    </tr>
+  </thead>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="#lab-iii-1">Lab III</a></h3>
-      <sub>Software Lab III · <b>real client</b> · team of 6</sub>
-      <p>AutoCAD electrical plans in; bill of materials, supplier quotes and purchase orders out.</p>
-      <p><b>My part:</b> full stack + the AI detection service · 440+ commits, 118 merged PRs</p>
-      <a href="#lab-iii-1"><img alt="lab3-liard (private)" src="https://img.shields.io/badge/lab3--liard-private-6e7781?style=flat-square"></a>
-      <br><br>
-      <a href="#lab-iii-1">Read more ↓</a>
+    <td valign="top">
+      <b><a href="#lab-iii">Lab III</a></b><br>
+      <sub>Software Lab III · <b>real client</b> · team of 6</sub><br>
+      <sub>Private repo</sub>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/grupo6-ingsis">PrintScript + Snippet Searcher</a></h3>
-      <sub>Ingeniería de Sistemas · team of 3</sub>
-      <p>A language of our own, published as a Kotlin library and run inside a microservices platform.</p>
-      <p><b>My part:</b> linter &amp; formatter, the main API, infra · top contributor in 3 repos</p>
-      <a href="https://github.com/grupo6-ingsis"><img alt="grupo6-ingsis" src="https://img.shields.io/badge/grupo6--ingsis-organization-24292f?style=flat-square&logo=github"></a>
-      <br><br>
-      <a href="#printscript--snippet-searcher-1">Read more ↓</a>
-    </td>
+    <td valign="top">AutoCAD electrical plans in; bill of materials, supplier quotes and purchase orders out.</td>
+    <td valign="top">Full stack + the AI detection service · 440+ commits, 118 merged PRs</td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Bovelez/bovelez">Bovelez</a></h3>
-      <sub>Aseguramiento de la Calidad de Software · team of 5</sub>
-      <p>Stock portfolio tracker built around testing: unit, integration, Cypress, Appium and Locust.</p>
-      <p><b>My part:</b> top contributor · backend, mobile front, the Appium suite and CI</p>
-      <a href="https://github.com/Bovelez/bovelez"><img alt="bovelez" src="https://img.shields.io/badge/bovelez-repo-24292f?style=flat-square&logo=github"></a>
-      <br><br>
-      <a href="#bovelez-1">Read more ↓</a>
+    <td valign="top">
+      <b><a href="#printscript--snippet-searcher">PrintScript + Snippet Searcher</a></b><br>
+      <sub>Ingeniería de Sistemas · team of 3</sub><br>
+      <sub><a href="https://github.com/grupo6-ingsis">grupo6-ingsis</a></sub>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="#rivalmatch-1">RivalMatch</a></h3>
-      <sub>Software Lab II · team of 4</sub>
-      <p>Amateur teams find a rival, get matched, then chat, schedule and record the result.</p>
-      <p><b>My part:</b> top committer on the UI · real-time chat, maps · search lifecycle in the back</p>
-      <a href="#front--rivalmatch-ui"><img alt="rivalmatch-ui (private)" src="https://img.shields.io/badge/rivalmatch--ui-private-6e7781?style=flat-square"></a>
-      <a href="#back--rivalmatch-back"><img alt="rivalmatch-back (private)" src="https://img.shields.io/badge/rivalmatch--back-private-6e7781?style=flat-square"></a>
-      <br><br>
-      <a href="#rivalmatch-1">Read more ↓</a>
-    </td>
+    <td valign="top">A language of our own, published as a Kotlin library and run inside a microservices platform.</td>
+    <td valign="top">Linter &amp; formatter, the main API, infra · top contributor in 3 repos</td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Agustinguglielmelli/coding-agent">Coding Agent</a></h3>
-      <sub>Inteligencia Artificial · final project · team of 3</sub>
-      <p>A coding agent that plans, implements and validates changes in a NestJS repo, alone or as a chain of 5 subagents.</p>
-      <p><b>My part:</b> local RAG, persistent memory, the first multi-agent version, Langfuse tracing</p>
-      <a href="https://github.com/Agustinguglielmelli/coding-agent"><img alt="coding-agent" src="https://img.shields.io/badge/coding--agent-repo-24292f?style=flat-square&logo=github"></a>
-      <br><br>
-      <a href="#coding-agent-1">Read more ↓</a>
+    <td valign="top">
+      <b><a href="#bovelez">Bovelez</a></b><br>
+      <sub>Aseguramiento de la Calidad de Software · team of 5</sub><br>
+      <sub><a href="https://github.com/Bovelez/bovelez">Bovelez/bovelez</a></sub>
     </td>
-    <td width="50%" valign="top"></td>
+    <td valign="top">Stock portfolio tracker built around testing: unit, integration, Cypress, Appium and Locust.</td>
+    <td valign="top">Top contributor · backend, mobile front, the Appium suite and CI</td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b><a href="#rivalmatch">RivalMatch</a></b><br>
+      <sub>Software Lab II · team of 4</sub><br>
+      <sub>Private repos</sub>
+    </td>
+    <td valign="top">Amateur teams find a rival, get matched, then chat, schedule and record the result.</td>
+    <td valign="top">Top committer on the UI · real-time chat, maps · search lifecycle in the back</td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b><a href="#coding-agent">Coding Agent</a></b><br>
+      <sub>Inteligencia Artificial · final project · team of 3</sub><br>
+      <sub><a href="https://github.com/Agustinguglielmelli/coding-agent">Agustinguglielmelli/coding-agent</a></sub>
+    </td>
+    <td valign="top">A coding agent that plans, implements and validates changes in a NestJS repo, alone or as a chain of 5 subagents.</td>
+    <td valign="top">Local RAG, persistent memory, the first multi-agent version, Langfuse tracing</td>
   </tr>
 </table>
 
-<sub>Grey badges are private repos; they link to the write-up below instead.</sub>
+## Project details
 
----
+### Lab III
 
-## Lab III
+**Electrical plans → bill of materials**
 
-<sub><b>Electrical plans → bill of materials</b> · Software Lab III, Universidad Austral · built for a <b>real client</b> · team of 6 · private repo</sub>
+<table>
+  <tr><td width="140"><b>Course</b></td><td>Software Lab III, Universidad Austral</td></tr>
+  <tr><td><b>Client</b></td><td>Built for a real client</td></tr>
+  <tr><td><b>Team</b></td><td>6</td></tr>
+  <tr><td><b>Repository</b></td><td><img alt="lab3-liard (private)" src="https://img.shields.io/badge/lab3--liard-private-6e7781?style=flat-square"></td></tr>
+  <tr><td><b>Stack</b></td><td><code>React</code> <code>TanStack Query</code> <code>Zustand</code> <code>NestJS</code> <code>Prisma</code> <code>PostgreSQL</code> <code>FastAPI</code> <code>YOLO / RF-DETR</code> <code>Claude</code> <code>Docker</code> <code>GitHub Actions</code></td></tr>
+</table>
 
 Engineers upload AutoCAD plans of electrical panels (DXF, DWG or PDF). A detector finds every symbol, an LLM reads what each
 one is, and the result is a bill of materials that gets quoted against supplier catalogs and turned into purchase orders.
@@ -149,13 +178,18 @@ flowchart LR
   </tr>
 </table>
 
-<sub>`React` `TanStack Query` `Zustand` `NestJS` `Prisma` `PostgreSQL` `FastAPI` `YOLO / RF-DETR` `Claude` `Docker` `GitHub Actions`</sub>
+<p align="right"><sub><a href="#projects">↑ Back to projects</a></sub></p>
 
-<sub>[↑ back to projects](#projects)</sub>
+### PrintScript + Snippet Searcher
 
-## PrintScript + Snippet Searcher
+**A language and the platform that runs it**
 
-<sub><b>A language and the platform that runs it</b> · Ingeniería de Sistemas, Universidad Austral · team of 3 · <a href="https://github.com/grupo6-ingsis">grupo6-ingsis</a></sub>
+<table>
+  <tr><td width="140"><b>Course</b></td><td>Ingeniería de Sistemas, Universidad Austral</td></tr>
+  <tr><td><b>Team</b></td><td>3</td></tr>
+  <tr><td><b>Organization</b></td><td><a href="https://github.com/grupo6-ingsis"><img alt="grupo6-ingsis" src="https://img.shields.io/badge/grupo6--ingsis-organization-24292f?style=flat-square&logo=github"></a></td></tr>
+  <tr><td><b>Stack</b></td><td><code>Kotlin</code> <code>Spring Boot</code> <code>Gradle</code> <code>Redis Streams</code> <code>PostgreSQL</code> <code>Auth0</code> <code>React</code> <code>Cypress</code> <code>Docker</code> <code>nginx</code> <code>GHCR</code></td></tr>
+</table>
 
 Two halves of one course: first we wrote a language, then we built a platform that runs it. **PrintScript** is a small typed
 language in Kotlin (lexer, parser, AST, interpreter, formatter, configurable linter, CLI) over a streaming pipeline; every push to
@@ -202,13 +236,18 @@ flowchart LR
   <a href="https://github.com/grupo6-ingsis/printscript-ui"><img alt="printscript-ui" src="https://img.shields.io/badge/printscript--ui-React_·_Cypress-24292f?style=flat-square&logo=github"></a>
 </p>
 
-<sub>`Kotlin` `Spring Boot` `Gradle` `Redis Streams` `PostgreSQL` `Auth0` `React` `Cypress` `Docker` `nginx` `GHCR`</sub>
+<p align="right"><sub><a href="#projects">↑ Back to projects</a></sub></p>
 
-<sub>[↑ back to projects](#projects)</sub>
+### Bovelez
 
-## Bovelez
+**Stock portfolio tracker, graded on its tests**
 
-<sub><b>Stock portfolio tracker, graded on its tests</b> · Aseguramiento de la Calidad de Software, Universidad Austral · team of 5 · <a href="https://github.com/Bovelez/bovelez">Bovelez/bovelez</a></sub>
+<table>
+  <tr><td width="140"><b>Course</b></td><td>Aseguramiento de la Calidad de Software, Universidad Austral</td></tr>
+  <tr><td><b>Team</b></td><td>5</td></tr>
+  <tr><td><b>Repository</b></td><td><a href="https://github.com/Bovelez/bovelez"><img alt="bovelez" src="https://img.shields.io/badge/bovelez-repo-24292f?style=flat-square&logo=github"></a></td></tr>
+  <tr><td><b>Stack</b></td><td><code>NestJS</code> <code>Prisma</code> <code>FastAPI</code> <code>React</code> <code>Cypress</code> <code>Appium</code> <code>Locust</code> <code>GitHub Actions</code> <code>semantic-release</code></td></tr>
+</table>
 
 Buy and sell stocks validated against SEC EDGAR and follow the portfolio with live prices, in a project graded on how well it is
 tested: unit, integration, Cypress, Appium on Android and Locust load testing.
@@ -242,17 +281,18 @@ tested: unit, integration, Cypress, Appium on Android and Locust load testing.
   </tr>
 </table>
 
-<p>
-  <a href="https://github.com/Bovelez/bovelez"><img alt="bovelez" src="https://img.shields.io/badge/bovelez-repo-24292f?style=flat-square&logo=github"></a>
-</p>
+<p align="right"><sub><a href="#projects">↑ Back to projects</a></sub></p>
 
-<sub>`NestJS` `Prisma` `FastAPI` `React` `Cypress` `Appium` `Locust` `GitHub Actions` `semantic-release`</sub>
+### RivalMatch
 
-<sub>[↑ back to projects](#projects)</sub>
+**Find a rival team and play them**
 
-## RivalMatch
-
-<sub><b>Find a rival team and play them</b> · Software Lab II, Universidad Austral · team of 4 · private repos, front and back</sub>
+<table>
+  <tr><td width="140"><b>Course</b></td><td>Software Lab II, Universidad Austral</td></tr>
+  <tr><td><b>Team</b></td><td>4</td></tr>
+  <tr><td><b>Repositories</b></td><td><img alt="rivalmatch-ui (private)" src="https://img.shields.io/badge/rivalmatch--ui-private-6e7781?style=flat-square"> <img alt="rivalmatch-back (private)" src="https://img.shields.io/badge/rivalmatch--back-private-6e7781?style=flat-square"></td></tr>
+  <tr><td><b>Stack</b></td><td><code>NestJS</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Socket.IO</code> <code>React</code> <code>Tailwind</code> <code>Google Maps</code></td></tr>
+</table>
 
 Amateur teams post a rival search (sport, size, date, place), get matched with compatible teams, then chat, schedule and record
 results.
@@ -260,37 +300,36 @@ results.
 <table>
   <tr>
     <td width="50%" valign="top">
-
-#### Front · rivalmatch-ui
-
-<sub>React + Tailwind · <b>top committer</b></sub>
-
-- Real-time chat over Socket.IO with notifications and read receipts
-- Map view with Google Maps marker clustering
-- Calendar, "my matches" and match history
-
-</td>
+      <b>Front · rivalmatch-ui</b> · <sub>React + Tailwind · <b>top committer</b></sub>
+      <ul>
+        <li>Real-time chat over Socket.IO with notifications and read receipts</li>
+        <li>Map view with Google Maps marker clustering</li>
+        <li>Calendar, "my matches" and match history</li>
+      </ul>
+    </td>
     <td width="50%" valign="top">
-
-#### Back · rivalmatch-back
-
-<sub>NestJS + Prisma</sub>
-
-- Team and RivalSearch entities
-- The search lifecycle: expiry, active vs. matched
-- Pagination, password change confirmed by email, the CI workflow
-
-</td>
+      <b>Back · rivalmatch-back</b> · <sub>NestJS + Prisma</sub>
+      <ul>
+        <li>Team and RivalSearch entities</li>
+        <li>The search lifecycle: expiry, active vs. matched</li>
+        <li>Pagination, password change confirmed by email, the CI workflow</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
-<sub>`NestJS` `Prisma` `PostgreSQL` `Socket.IO` `React` `Tailwind` `Google Maps`</sub>
+<p align="right"><sub><a href="#projects">↑ Back to projects</a></sub></p>
 
-<sub>[↑ back to projects](#projects)</sub>
+### Coding Agent
 
-## Coding Agent
+**An agent that writes code in a real repo**
 
-<sub><b>An agent that writes code in a real repo</b> · Inteligencia Artificial, Universidad Austral · final project · team of 3 · <a href="https://github.com/Agustinguglielmelli/coding-agent">Agustinguglielmelli/coding-agent</a></sub>
+<table>
+  <tr><td width="140"><b>Course</b></td><td>Inteligencia Artificial, Universidad Austral · final project</td></tr>
+  <tr><td><b>Team</b></td><td>3</td></tr>
+  <tr><td><b>Repository</b></td><td><a href="https://github.com/Agustinguglielmelli/coding-agent"><img alt="coding-agent" src="https://img.shields.io/badge/coding--agent-repo-24292f?style=flat-square&logo=github"></a></td></tr>
+  <tr><td><b>Stack</b></td><td><code>Node.js</code> <code>OpenAI</code> <code>Gemini</code> <code>RAG</code> <code>Multi-agent</code> <code>Langfuse</code> <code>OpenTelemetry</code> <code>Tavily</code></td></tr>
+</table>
 
 A coding agent in Node.js, with no orchestration framework, pointed at the RivalMatch backend (NestJS). It plans a task, asks for
 approval, then works alone or as a chain of five subagents, each with only the permissions its step needs. It reads and writes
@@ -323,25 +362,21 @@ flowchart LR
   </tr>
 </table>
 
-<p>
-  <a href="https://github.com/Agustinguglielmelli/coding-agent"><img alt="coding-agent" src="https://img.shields.io/badge/coding--agent-repo-24292f?style=flat-square&logo=github"></a>
-</p>
-
-<sub>`Node.js` `OpenAI` `Gemini` `RAG` `Multi-agent` `Langfuse` `OpenTelemetry` `Tavily`</sub>
-
-<sub>[↑ back to projects](#projects)</sub>
+<p align="right"><sub><a href="#projects">↑ Back to projects</a></sub></p>
 
 ---
 
+## Versión en español
+
 <details>
-<summary><b>Versión en español</b></summary>
+<summary><b>Ver resumen en español</b></summary>
 <br>
 
 Soy desarrollador **full stack con foco en backend** y estudio 4.º año de Ingeniería Informática en la **Universidad Austral**
 (egreso estimado: diciembre 2027). Vivo en Pilar, Buenos Aires. Me gusta hacerme cargo de una funcionalidad de punta a punta:
 el esquema, el servicio, la pantalla y el pipeline que la despliega.
 
-- **[Laboratorio III](#lab-iii-1)** (proyecto con un cliente real, equipo de 6, repo privado): convierte planos eléctricos de
+- **[Laboratorio III](#lab-iii)** (proyecto con un cliente real, equipo de 6, repo privado): convierte planos eléctricos de
   AutoCAD en listado de materiales, cotizaciones y órdenes de compra. Trabajé en front (onboarding, órdenes de compra, BOM,
   catálogo de proveedores), en back (proyectos, procesamiento de planos, cotización y matching, normalización de catálogos con
   Claude) y en el servicio de detección en Python.
@@ -350,7 +385,7 @@ el esquema, el servicio, la pantalla y el pipeline que la despliega.
   Spring Boot y Redis Streams. Hice reglas del linter y el formatter, el servicio principal, la infraestructura y los tests de Cypress.
 - **[Bovelez](https://github.com/Bovelez/bovelez)** (Aseguramiento de la Calidad de Software, equipo de 5): tracker de acciones.
   Armé el repo y el CI, parte del back, el front mobile y toda la suite de e2e mobile con Appium.
-- **[RivalMatch](#rivalmatch-1)** (Laboratorio II, equipo de 4, repos privados de front y back): búsqueda de rivales para equipos
+- **[RivalMatch](#rivalmatch)** (Laboratorio II, equipo de 4, repos privados de front y back): búsqueda de rivales para equipos
   amateurs. Chat en tiempo real, mapa y calendario en el front; equipos y ciclo de vida de las búsquedas en el back.
 - **[Coding Agent](https://github.com/Agustinguglielmelli/coding-agent)** (trabajo final de Inteligencia Artificial, equipo de 3):
   un agente de código en Node.js que planifica, implementa y valida cambios en el backend de RivalMatch, solo o con cinco
